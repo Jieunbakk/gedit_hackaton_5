@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.searchBtn.setOnClickListener{
+            val intent=Intent(this, MapActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

@@ -36,6 +36,7 @@ class ReservationActivity : AppCompatActivity() {
             }
             binding.cntpp2.text=cntS.toString()
         }
+
         binding.reserBtn.setOnClickListener {
             finish()
         }
