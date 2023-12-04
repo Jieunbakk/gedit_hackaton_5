@@ -1,32 +1,41 @@
 # gedit_hackaton_5
 
 **실행 방법**
-master branch 에 업로드 된 파일
 
-안드로이드 스튜디오에 mater branch 업로드
+1. **로컬에 가져오기:**
+    ```bash
+    git clone https://github.com/Jieunbakk/gedit_hackaton_5.git
+    ```
 
-에뮬레이터 기기는 " Pixel 4a API 33"으로 선택하여 실행
+2. **브랜치 이동:**
+    ```bash
+    git checkout master
+    ```
 
-하단바 메뉴 : 예약, 탐색만 작동함
+3. **안드로이드 스튜디오에서 열기:**
+    - 안드로이드 스튜디오에서 "File" > "Open"을 선택하고 프로젝트 디렉터리를 선택하여 엽니다.
 
-안드로이드 스튜디오 version은 다음과 같음
-Android Studio Giraffe | 2022.3.1 Patch 2
-Build #AI-223.8836.35.2231.10811636, built on September 15, 2023
+4. **에뮬레이터 기기 선택:**
+    - "Pixel 4a API 33"으로 에뮬레이터 기기를 선택하여 실행합니다.
 
+5. **하단바 메뉴:**
+    - "예약" 및 "탐색"만 작동합니다.
 
-Runtime version: 17.0.6+0-b2043.56-10027231 amd64
-VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
-Windows 11 10.0
-GC: G1 Young Generation, G1 Old Generation
-Memory: 1280M
-Cores: 8
-Registry:
-    external.system.auto.import.disabled=true
-    ide.text.editor.with.preview.show.floating.toolbar=false
-    documentation.show.toolbar=true
+## Android Studio 버전
+- Android Studio Giraffe | 2022.3.1 Patch 2
 
-Non-Bundled Plugins:
-    Dart (223.8950)
-    PythonCore (223.8836.26)
-    io.flutter (75.1.2)
+## 빌드 정보
+- Build #AI-223.8836.35.2231.10811636, 2023년 9월 15일 빌드
 
+## 런타임 정보
+- OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+- Windows 11 10.0
+- GC: G1 Young Generation, G1 Old Generation
+- 메모리: 1280M
+- 코어: 8
+
+## 레지스트리 설정
+```plaintext
+external.system.auto.import.disabled=true
+ide.text.editor.with.preview.show.floating.toolbar=false
+documentation.show.toolbar=true
